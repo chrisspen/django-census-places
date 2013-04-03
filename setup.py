@@ -21,5 +21,6 @@ setup(
         'census_places',
         'census_places.management',
         'census_places.management.commands',
-        ]
+        'census_places.migrations',
+    ]
 )
