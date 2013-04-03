@@ -1,12 +1,14 @@
 from distutils.core import setup
 
+import census_places
+
 setup(
     name='django-census-places',
-    version='1.2.2',
-    url='http://bitbucket.org/latestrevision/django-census-places/',
+    version=census_places.__version__,
+    url='https://github.com/chrisspen/django-census-places',
     description='Use city (and census designated place) boundaries provided by the United States Census',
-    author='Adam Coddington',
-    author_email='me@adamcoddington.net',
+    author='Chris Spencer',
+    author_email='chrisspen@gmail.com',
     classifiers=[
         'Framework :: Django',
         'Intended Audience :: Developers',
